@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/coinTrade/static/css/main.ae39a06d.chunk.css",
-    "main.js": "/coinTrade/static/js/main.e22b3522.chunk.js",
-    "main.js.map": "/coinTrade/static/js/main.e22b3522.chunk.js.map",
-    "runtime-main.js": "/coinTrade/static/js/runtime-main.2718b295.js",
-    "runtime-main.js.map": "/coinTrade/static/js/runtime-main.2718b295.js.map",
+    "main.css": "/coinTrade/static/css/main.c49d785d.chunk.css",
+    "main.js": "/coinTrade/static/js/main.c645aebd.chunk.js",
+    "main.js.map": "/coinTrade/static/js/main.c645aebd.chunk.js.map",
+    "runtime-main.js": "/coinTrade/static/js/runtime-main.e599466b.js",
+    "runtime-main.js.map": "/coinTrade/static/js/runtime-main.e599466b.js.map",
     "static/js/2.080c33df.chunk.js": "/coinTrade/static/js/2.080c33df.chunk.js",
     "static/js/2.080c33df.chunk.js.map": "/coinTrade/static/js/2.080c33df.chunk.js.map",
-    "static/js/3.f09e8788.chunk.js": "/coinTrade/static/js/3.f09e8788.chunk.js",
-    "static/js/3.f09e8788.chunk.js.map": "/coinTrade/static/js/3.f09e8788.chunk.js.map",
+    "static/js/3.26862d8f.chunk.js": "/coinTrade/static/js/3.26862d8f.chunk.js",
+    "static/js/3.26862d8f.chunk.js.map": "/coinTrade/static/js/3.26862d8f.chunk.js.map",
     "index.html": "/coinTrade/index.html",
-    "static/css/main.ae39a06d.chunk.css.map": "/coinTrade/static/css/main.ae39a06d.chunk.css.map",
+    "static/css/main.c49d785d.chunk.css.map": "/coinTrade/static/css/main.c49d785d.chunk.css.map",
     "static/js/2.080c33df.chunk.js.LICENSE.txt": "/coinTrade/static/js/2.080c33df.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/coinTrade/static/media/logo.6ce24c58.svg"
+    "static/media/trx-logo.2e830cf6.png": "/coinTrade/static/media/trx-logo.2e830cf6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2718b295.js",
+    "static/js/runtime-main.e599466b.js",
     "static/js/2.080c33df.chunk.js",
-    "static/css/main.ae39a06d.chunk.css",
-    "static/js/main.e22b3522.chunk.js"
+    "static/css/main.c49d785d.chunk.css",
+    "static/js/main.c645aebd.chunk.js"
   ]
 }
