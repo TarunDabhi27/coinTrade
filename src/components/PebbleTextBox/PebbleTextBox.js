@@ -3,6 +3,7 @@ import './PebbleTextBox.css';
 
 function PebbleTextBox(props) {
   let style = props.style;
+  let name = props.name;
   
   function handleClick(e) {
     
@@ -12,7 +13,7 @@ function PebbleTextBox(props) {
   
   return (
     <div className="PebbleTextBox" onClick={handleClick}>
-       <input className="PebbleTextBox"/>
+       <input className="PebbleTextBox" placeholder={name}/>
     </div>
   );
 }

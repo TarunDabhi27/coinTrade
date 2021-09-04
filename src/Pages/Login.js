@@ -13,7 +13,8 @@ function Login() {
         <div className="PebbleLabel">
             <header className="App-header">
                 <PebbleLabel labelName='Login Page' style={{ color: colorCode.green }}></PebbleLabel>
-                <PebbleTextBox></PebbleTextBox>
+                <PebbleTextBox name={text.username}></PebbleTextBox>
+                <PebbleTextBox name={text.password}></PebbleTextBox>
                 <PebbleButton buttonName={text.login} style={{ backgroundColor: colorCode.green, align: 'center' }} buttonAction={{ buttonAction }}></PebbleButton>
             </header>
         </div>

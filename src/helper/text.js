@@ -12,7 +12,9 @@ const text = {
     home: 'HOME',
     about: 'ABOUT',
     login: 'LOGIN',
-    underDevelopment: 'This is under development'
+    underDevelopment: 'This is under development',
+    username: 'USERNAME',
+    password: 'PASSWORD'
 }
 
 export default text;
