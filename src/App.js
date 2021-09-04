@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Link to='/coinTrade'><PebbleLabel labelName={text.home} style={{color: colorCode.green}}></PebbleLabel></Link>
         <Link to='/'><PebbleLabel labelName={text.home} style={{color: colorCode.green}}></PebbleLabel></Link>
         <Link to='/about'><PebbleLabel labelName={text.about} style={{color: colorCode.green}}></PebbleLabel></Link>
         <Link to='/login'><PebbleLabel labelName={text.login} style={{color: colorCode.green}}></PebbleLabel></Link>
@@ -20,6 +19,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/login" component={Login} />
         <Route path="/" exact component={Home}/>
+        <Route path="/coinTrade" exact component={Home}/>
       </Router>
     </div>
   );
