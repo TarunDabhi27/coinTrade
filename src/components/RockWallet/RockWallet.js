@@ -25,7 +25,7 @@ function RockWallet(props) {
       setIsCopy(true);
       return;
     }
-    alert(`This feature is under development`);
+    alert(`${text.underDevelopment}`);
   }
 
   return (

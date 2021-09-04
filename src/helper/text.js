@@ -12,7 +12,7 @@ const text = {
     home: 'HOME',
     about: 'ABOUT',
     login: 'LOGIN',
-    underDevelopment: 'This is under development',
+    underDevelopment: 'This feature is under development',
     username: 'USERNAME',
     password: 'PASSWORD'
 }

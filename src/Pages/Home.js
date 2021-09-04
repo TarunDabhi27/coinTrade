@@ -10,7 +10,7 @@ function Home() {
   let wallerId = 'ct0001';
 
   function buttonAction(){
-    alert(`This feature is under development`);
+    alert(`${text.underDevelopment}`);
   }
 
   
