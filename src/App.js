@@ -15,8 +15,8 @@ function App() {
         <RockUserProfile coinName={text.trx} wallerId={wallerId}></RockUserProfile>
         <RockWallet coinName={text.trx} wallerId={wallerId}></RockWallet>
 
-        <PebbleButton buttonName={text.buy} style={{backgroundColor: colorCode.red}}></PebbleButton>
-        <PebbleButton buttonName={text.sell} style={{backgroundColor: colorCode.green}}></PebbleButton>
+        <PebbleButton buttonName={text.buy} style={{backgroundColor: colorCode.green}}></PebbleButton>
+        <PebbleButton buttonName={text.sell} style={{backgroundColor: colorCode.red}}></PebbleButton>
         <img src={trxLogo} className="App-logo" alt="logo" />
       </header>
     </div>
