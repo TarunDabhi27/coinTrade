@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coinTrade/static/css/main.c49d785d.chunk.css",
+    "main.css": "/coinTrade/static/css/main.8b034298.chunk.css",
     "main.js": "/coinTrade/static/js/main.c645aebd.chunk.js",
     "main.js.map": "/coinTrade/static/js/main.c645aebd.chunk.js.map",
     "runtime-main.js": "/coinTrade/static/js/runtime-main.e599466b.js",
@@ -10,14 +10,14 @@
     "static/js/3.26862d8f.chunk.js": "/coinTrade/static/js/3.26862d8f.chunk.js",
     "static/js/3.26862d8f.chunk.js.map": "/coinTrade/static/js/3.26862d8f.chunk.js.map",
     "index.html": "/coinTrade/index.html",
-    "static/css/main.c49d785d.chunk.css.map": "/coinTrade/static/css/main.c49d785d.chunk.css.map",
+    "static/css/main.8b034298.chunk.css.map": "/coinTrade/static/css/main.8b034298.chunk.css.map",
     "static/js/2.080c33df.chunk.js.LICENSE.txt": "/coinTrade/static/js/2.080c33df.chunk.js.LICENSE.txt",
     "static/media/trx-logo.2e830cf6.png": "/coinTrade/static/media/trx-logo.2e830cf6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e599466b.js",
     "static/js/2.080c33df.chunk.js",
-    "static/css/main.c49d785d.chunk.css",
+    "static/css/main.8b034298.chunk.css",
     "static/js/main.c645aebd.chunk.js"
   ]
 }
