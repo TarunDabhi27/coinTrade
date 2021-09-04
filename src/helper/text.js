@@ -4,7 +4,11 @@ const text = {
     trx: 'TRX',
     up: 'UP',
     down: 'DOWN',
-    welcome: 'Welcome'
+    welcome: 'Welcome',
+    deposit: 'DEPOSIT',
+    withdraw: 'WITHDRAW',
+    copy: 'COPY',
+    token: 'TOKEN'
 }
 
 export default text;

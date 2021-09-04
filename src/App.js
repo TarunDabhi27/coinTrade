@@ -8,6 +8,7 @@ import RockUserProfile from './components/RockUserProfile/RockUserProfile';
 
 function App() {
   let wallerId = 'ct0001';
+
   return (
     <div className="App">
       <header className="App-header">
