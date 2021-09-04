@@ -1,0 +1,9 @@
+.PebbleButton{
+    height: auto;
+    width: auto;
+    min-width: 100px;
+    padding: 10px 40PX;
+    border-radius: 10px;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
