@@ -1,25 +1,26 @@
-import trxLogo from './images/trx-logo.png';
 import './App.css';
-import PebbleButton from './components/PebbleButton/PebbleButton.js';
-import RockWallet from './components/RockWallet/RockWallet.js';
+import {Route, BrowserRouter as Router, Link} from 'react-router-dom';
+import About from './Pages/About.js';
+import Home from './Pages/Home.js';
+import PebbleLabel from './components/PebbleLabel/PebbleLabel.js';
 import colorCode from './helper/color.js';
 import text from './helper/text.js';
-import RockUserProfile from './components/RockUserProfile/RockUserProfile';
+import Login from './Pages/Login';
 
 function App() {
-  let wallerId = 'ct0001';
 
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <RockUserProfile coinName={text.trx} wallerId={wallerId}></RockUserProfile>
-        <RockWallet coinName={text.trx} wallerId={wallerId}></RockWallet>
+      <Router>
+      
+        <Link to='/'><PebbleLabel labelName={text.home} style={{color: colorCode.green}}></PebbleLabel></Link>
+        <Link to='/about'><PebbleLabel labelName={text.about} style={{color: colorCode.green}}></PebbleLabel></Link>
+        <Link to='/login'><PebbleLabel labelName={text.login} style={{color: colorCode.green}}></PebbleLabel></Link>
 
-        <PebbleButton buttonName={text.buy} style={{backgroundColor: colorCode.green}}></PebbleButton>
-        <PebbleButton buttonName={text.sell} style={{backgroundColor: colorCode.red}}></PebbleButton>
-        <img src={trxLogo} className="App-logo" alt="logo" />
-      </header>
+        <Route path="/about" component={About} />
+        <Route path="/login" component={Login} />
+        <Route path="/" exact component={Home}/>
+      </Router>
     </div>
   );
 }

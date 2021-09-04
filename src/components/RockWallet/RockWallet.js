@@ -19,10 +19,13 @@ function RockWallet(props) {
       setIsCopy(false);
       navigator.clipboard.writeText(token.trxToken);
       alert(`Token has been copied!`);
+      return;
     }
     if(val === text.deposit){
       setIsCopy(true);
+      return;
     }
+    alert(`This feature is under development`);
   }
 
   return (

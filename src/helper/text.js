@@ -8,7 +8,11 @@ const text = {
     deposit: 'DEPOSIT',
     withdraw: 'WITHDRAW',
     copy: 'COPY',
-    token: 'TOKEN'
+    token: 'TOKEN',
+    home: 'HOME',
+    about: 'ABOUT',
+    login: 'LOGIN',
+    underDevelopment: 'This is under development'
 }
 
 export default text;
