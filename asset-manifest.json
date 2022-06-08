@@ -12,7 +12,7 @@
     "index.html": "/coinTrade/index.html",
     "static/css/main.bf117c31.chunk.css.map": "/coinTrade/static/css/main.bf117c31.chunk.css.map",
     "static/js/2.85e34d86.chunk.js.LICENSE.txt": "/coinTrade/static/js/2.85e34d86.chunk.js.LICENSE.txt",
-    "static/media/trx-logo.2e830cf6.png": "/coinTrade/static/media/trx-logo.2e830cf6.png"
+    "static/media/trx-logo.2e830cf6.png": "/coinTrade/static/media/trx-logo.2e830cf6.png",
   },
   "entrypoints": [
     "static/js/runtime-main.2da2b826.js",
